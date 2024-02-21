@@ -1,17 +1,33 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import { HashLink as NavLink} from 'react-router-hash-link';
+import { useState, useEffect } from 'react';
 
 const Nav = () => {
-  return (
-    <div className='nav'>
-        <NavLink to="#home" className='link'>HOME</NavLink>
-        <NavLink to="#about" className='link'>ABOUT</NavLink>
-        <NavLink to="#projects" className='link'>PROJECTS</NavLink>
-        <NavLink to="#contact" className='link'>CONTACT</NavLink>
-     
-    </div>
-  );
+    const [isSticky, setIsSticky] = useState(false)
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            if (offset > 0) {
+                setIsSticky(true)
+            } else {
+                setIsSticky(false)
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+    return (
+        <div className={`nav ${isSticky ? 'sticky' : ''}`} id='navbar'>
+            <NavLink to="#home" className='link'>HOME</NavLink>
+            <NavLink to="#about" className='link'>ABOUT</NavLink>
+            <NavLink to="#projects" className='link'>PROJECTS</NavLink>
+            <NavLink to="#contact" className='link'>CONTACT</NavLink>
+        </div>
+    );
 }
 
 export default Nav;
