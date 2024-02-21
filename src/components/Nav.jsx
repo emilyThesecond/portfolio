@@ -1,17 +1,16 @@
-import { NavLink } from "react-router-dom"
-import React from 'react'
+import React from 'react';
+// import { NavLink } from 'react-router-dom';
+import { HashLink as NavLink} from 'react-router-hash-link';
 
 const Nav = () => {
   return (
     <div>
-        <div>
-            <NavLink>HOME</NavLink>
-            <NavLink>PROJECTS</NavLink>
-            <NavLink>ABOUT</NavLink>
-            <NavLink>CONTACT</NavLink>
-        </div>
+        <NavLink to="#home" className='link'>HOME</NavLink>
+        <NavLink to="#about" className='link'>ABOUT</NavLink>
+        <NavLink to="#projects" className='link'>PROJECTS</NavLink>
+     
     </div>
-  )
+  );
 }
 
-export default Nav
+export default Nav;

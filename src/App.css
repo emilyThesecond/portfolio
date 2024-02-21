@@ -3,7 +3,5 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-.home {
-  font-size: 20vmin;
+  background-color: rgb(218, 218, 218);
 }
