@@ -3,8 +3,8 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from './pages/About';
+import Contact from './pages/Contact';
 import './App.css'
-import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
         <Home />
         <About />
         <Projects />
+        <Contact />
       </main>
     </div>
   );

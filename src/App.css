@@ -5,3 +5,14 @@
   text-align: center;
   background-color: rgb(218, 218, 218);
 }
+.home, .projects {
+  font-size: 10vmin;
+}
+.nav {
+  font-size: 2.5vmin;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav a {
+  padding: 1vmin;
+}
