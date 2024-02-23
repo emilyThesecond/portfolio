@@ -1,8 +1,8 @@
 
 :root {
-  /* background-color: rgb(177, 182, 141); */
+  background-color: rgb(177, 182, 141);
   color: rgb(54, 81, 62);
-  background-image: url("https://media.istockphoto.com/id/1382812225/vector/abstract-pastel-pink-purple-holographic-blurred-grainy-gradient-background.jpg?s=612x612&w=0&k=20&c=DhpyMvkHsEFIMBfLKYHFGizn6UgZEpaAGl0jOvP6_p0=");
+  /* background-image: url("https://media.istockphoto.com/id/1382812225/vector/abstract-pastel-pink-purple-holographic-blurred-grainy-gradient-background.jpg?s=612x612&w=0&k=20&c=DhpyMvkHsEFIMBfLKYHFGizn6UgZEpaAGl0jOvP6_p0="); */
   /* background-image: url("https://t3.ftcdn.net/jpg/04/58/66/20/240_F_458662061_FkN1rBzzPwXmQAb709ExKDEWD9Ws1TpS.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
