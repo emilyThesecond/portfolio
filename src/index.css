@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 #home {
   /* font-family: "Rammetto One", sans-serif;

@@ -3,6 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div className='page' id='projects'>
+        <h1>Projects</h1>
         <div className="card">
                 <img src="https://i.imgur.com/aRrgFzu.png" alt="Project 1" />
                 <div className="card-text">
@@ -15,12 +16,12 @@ const Projects = () => {
                 <p>Habitualize</p>
                 </div>
         </div>
-        {/* <div className="card">
-                <img src="path_to_your_image.jpg" alt="Project 3" />
+        <div className="card">
+                <img src="https://i.imgur.com/s0NrMV0.png" alt="Project 3" />
                 <div className="card-text">
-                <p>Text for Project 3</p>
+                <p>Glaze Cookbook</p>
                 </div>
-        </div> */}
+        </div>
     </div>
   )
 }
