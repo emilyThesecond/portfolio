@@ -23,6 +23,7 @@ const Nav = () => {
     return (
         <div className={`nav ${isSticky ? 'sticky' : ''}`} id='navbar'>
             <NavLink to="#home" className='link'>HOME</NavLink>
+            {/* <NavLink to="#home" className='link'id='name'>EMILY SEGUNDO<br/>Software Engineer</NavLink> */}
             <NavLink to="#about" className='link'>ABOUT</NavLink>
             <NavLink to="#projects" className='link'>PROJECTS</NavLink>
             <NavLink to="#contact" className='link'>CONTACT</NavLink>
