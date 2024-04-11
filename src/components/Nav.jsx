@@ -22,6 +22,8 @@ const Nav = () => {
     }, [])
     return (
         <div className={`nav ${isSticky ? 'sticky' : ''}`} id='navbar'>
+            <img className='logo' src="https://i.imgur.com/pR31zcv.png" alt="Logo with E and S" />
+            <h1>EMilY SEGUNDO</h1>
             <NavLink to="#home" className='link'>HOME</NavLink>
             {/* <NavLink to="#home" className='link'id='name'>EMILY SEGUNDO<br/>Software Engineer</NavLink> */}
             <NavLink to="#about" className='link'>ABOUT</NavLink>
