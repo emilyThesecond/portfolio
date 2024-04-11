@@ -4,8 +4,8 @@ const Projects = () => {
   return (
     <div className='page' id='projects'>
         <div className='project-page'>
-    <div className="projects-container">
       <h1 className='project-header'>P R O J E C T S</h1>
+    <div className="projects-container">
       <div className="project">
         <h1>75 Hard</h1>
         <h4>Coming soon</h4>

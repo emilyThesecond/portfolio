@@ -2,20 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className='footer'>
+      <div className='socials'>
         <h1>Socials</h1>
-       <a href="">LinkedIn</a>
-       <a href="">Github</a>
-       <a href="">Instagram</a>
+       <a className='social' href="">LinkedIn</a> <br></br> <br></br>
+       <a className='social' href="">Github</a> <br></br> <br></br>
+       {/* <a className='social' href="">Instagram</a> */}
 
       </div>
-        <h1>EMILY SEGUNDO</h1>
-        <h2>Chicago, IL</h2>
-        <h2>emily.segundo.n@gmial.com</h2>
-        <h2>(630)640-1286</h2>
+        
       <div>
-
+      <h1>Emily Segundo</h1>
+        <p className='info'>Chicago, IL</p>
+        <p className='info'>emily.segundo.n@gmial.com</p>
+        <p className='info'>(630)640-1286</p>
       </div>
     </div>
   )
