@@ -22,13 +22,26 @@ const Nav = () => {
     }, [])
     return (
         <div className={`nav ${isSticky ? 'sticky' : ''}`} id='navbar'>
+            <div className='logo-header'>
+
             <img className='logo' src="https://i.imgur.com/pR31zcv.png" alt="Logo with E and S" />
-            <h1>EMilY SEGUNDO</h1>
+            <div className='name-navbar'>
+            <h1>EMILY SEGUNDO</h1>
+            <div className='navbar'>            
             <NavLink to="#home" className='link'>HOME</NavLink>
             {/* <NavLink to="#home" className='link'id='name'>EMILY SEGUNDO<br/>Software Engineer</NavLink> */}
             <NavLink to="#about" className='link'>ABOUT</NavLink>
             <NavLink to="#projects" className='link'>PROJECTS</NavLink>
             <NavLink to="#contact" className='link'>CONTACT</NavLink>
+            </div>
+            </div>
+            <p className='engineer'>SOFTWARE ENGINEER</p>
+            </div>
+            {/* <NavLink to="#home" className='link'>HOME</NavLink> */}
+            {/* <NavLink to="#home" className='link'id='name'>EMILY SEGUNDO<br/>Software Engineer</NavLink> */}
+            {/* <NavLink to="#about" className='link'>ABOUT</NavLink>
+            <NavLink to="#projects" className='link'>PROJECTS</NavLink>
+            <NavLink to="#contact" className='link'>CONTACT</NavLink> */}
         </div>
     );
 }
