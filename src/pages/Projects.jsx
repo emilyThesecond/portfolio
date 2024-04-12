@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="project">
         <h1>The Strokes Fans</h1>
         <a href="https://the-strokes-fan-page.vercel.app/" target="_blank" rel="noopener noreferrer">
-        <button>live site</button>
+        <button>Live site</button>
         </a>
         <a href="https://github.com/emilyThesecond/the-strokes-client" target="_blank" rel="noopener noreferrer"><button>Gitub</button></a>
         <h3>Details: Welcome to the ultimate destination for all things related to The Strokes! 🎸🎶 Dive into the world of this iconic indie rock band and connect with fellow fans. Stay updated on the latest news, tour dates, music releases, and explore their extensive setlists from past performances. Let's celebrate the music and legacy of The Strokes together! This fan page is powered by a full stack MERN (MongoDB, Express.js, React.js, Node.js) application, providing a seamless and interactive experience for fans worldwide.</h3>
