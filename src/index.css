@@ -19,6 +19,7 @@
   /* font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
   font-style: normal; */
+  font-family: Helvetica, Sans-Serif;
 }
 .link {
   text-decoration: none;
@@ -97,6 +98,8 @@
   justify-content: space-around;
   margin: 0; */
   background-color: #dad2d256;
+  /* width: 100%; */
+  /* margin-left: -45px; */
   /* color: rgb(28, 95, 28); */
 }
 .socials {
@@ -133,7 +136,7 @@
   width: auto;
   height: 80vmin;
   padding-left: 20px;
-  filter: grayscale(100%);
+  filter: grayscale(80%);
 }
 
 .about-me {
