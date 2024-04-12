@@ -24,7 +24,8 @@ const Nav = () => {
         <div className={`nav ${isSticky ? 'sticky' : ''}`} id='navbar'>
             <div className='logo-header'>
 
-            <img className='logo' src="https://i.imgur.com/pR31zcv.png" alt="Logo with E and S" />
+            {/* <img className='logo' src="https://i.imgur.com/pR31zcv.png" alt="Logo with E and S" /> */}
+            <img className='logo' src="https://i.imgur.com/zsEEDQp.png" alt="Logo with E and S" />
             <div className='name-navbar'>
             <h1>EMILY SEGUNDO</h1>
             <div className='navbar'>            

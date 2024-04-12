@@ -10,7 +10,7 @@ const About = () => {
       </div>
     
       <div className='about-me'>
-      <h1>Hi! Welcome to my Portfolio, Im Emily.</h1>
+      <h1 className='welcome'>Hi! Welcome to my Portfolio, Im Emily.</h1>
       <h5>Emily Segundo | Software Engineer</h5>
       <h4>I am a software engineer experience with Full-stack Development, eager to continue learning and solving problems to create accessible software solutions that improve lives. Leveraging my background in behavioral support, teamwork, and artistic traits, I enhance collaboration and user experience in software development. My unique perspective drives me to create impactful solutions.</h4>
 

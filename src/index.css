@@ -79,19 +79,19 @@
 .project button{
   padding: 5px 26px;
   font-size: 2vmin;
-  background-color: #d09a966f;
-  border-radius: 1px #d09a96;
+  background-color: #05410a47;
+  /* border-radius: 5px #d09a96; */
   border: none;
   color: rgb(255, 255, 255);
   color: black;
 }
 .project button:hover {
-  background-color: #d76055;
+  background-color: #0a5c0fac;
 }
 
 
 .footer {
-  padding: 10vmin;
+  padding: 5vmin;
   display: flex;
   /* justify-content: space-evenly;
   justify-content: space-around;
@@ -138,8 +138,12 @@
 
 .about-me {
   flex: 2;
-  font-size: 2vmin;
+  font-size: 2.3vmin;
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.welcome {
+  border-bottom: 4px solid rgba(11, 70, 11, 0.65);
 }
