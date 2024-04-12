@@ -113,7 +113,8 @@
 #about {
   display: flex;
   justify-content: center;
-  margin-top: 8vmin;
+  /* margin-top: 8vmin; */
+  margin: 8vmin 0;
 }
 
 .about-content {
@@ -137,4 +138,8 @@
 
 .about-me {
   flex: 2;
+  font-size: 2vmin;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
