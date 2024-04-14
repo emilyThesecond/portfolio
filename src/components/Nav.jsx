@@ -29,8 +29,7 @@ const Nav = () => {
             <div className='name-navbar'>
             <h1>EMILY SEGUNDO</h1>
             <div className='navbar'>            
-            <NavLink to="#home" className='link'>HOME</NavLink>
-            {/* <NavLink to="#home" className='link'id='name'>EMILY SEGUNDO<br/>Software Engineer</NavLink> */}
+            {/* <NavLink to="#home" className='link'>HOME</NavLink> */}
             <NavLink to="#about" className='link'>ABOUT</NavLink>
             <NavLink to="#projects" className='link'>PROJECTS</NavLink>
             <NavLink to="#skills" className='link'>SKILLS</NavLink>
