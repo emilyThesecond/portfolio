@@ -14,7 +14,7 @@ const Footer = () => {
       <div>
       <h2>Emily Segundo</h2>
         <p className='info'>Chicago, IL</p>
-        <p className='info'>emily.segundo.n@gmial.com</p>
+        <p className='info'>emily.segundo.n@gmail.com</p>
         <p className='info'>(630)640-1286</p>
       </div>
     </div>
