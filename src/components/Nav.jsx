@@ -33,7 +33,7 @@ const Nav = () => {
             <NavLink to="#about" className='link'>ABOUT</NavLink>
             <NavLink to="#projects" className='link'>PROJECTS</NavLink>
             <NavLink to="#skills" className='link'>SKILLS</NavLink>
-            <NavLink to="#resume" className='link'>resume</NavLink>
+            <NavLink to="#resume" className='link'>RESUME</NavLink>
             </div>
             </div>
             <p className='engineer'>SOFTWARE ENGINEER</p>
