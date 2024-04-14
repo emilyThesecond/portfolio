@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Footer from './components/Footer';
+import Resume from './pages/Resume';
 import './App.css'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
+        <Resume />
       </main>
       <footer>
         <Footer />
