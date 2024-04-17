@@ -33,7 +33,7 @@ const Nav = () => {
             <NavLink to="#about" className='link'>ABOUT</NavLink>
             <NavLink to="#projects" className='link'>PROJECTS</NavLink>
             <NavLink to="#skills" className='link'>SKILLS</NavLink>
-            <NavLink to="#resume" className='link'>RESUME</NavLink>
+            <NavLink to="https://docs.google.com/document/d/19uHPdQYXastPyo64PPVbi7jxlWMRewXHGSiyI4Gsi7c/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className='link'>RESUME</NavLink>
             </div>
             </div>
             <p className='engineer'>SOFTWARE ENGINEER</p>
